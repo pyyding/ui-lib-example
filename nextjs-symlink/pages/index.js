@@ -1,5 +1,5 @@
 import Head from "next/head"
-import AppButton from "../components/lib-components/AppButton"
+import { Button } from "../components/ui-lib"
 export default function Home() {
   return (
     <div className="container">
@@ -12,7 +12,7 @@ export default function Home() {
         <h1 className="title">
           This button is from symlink pointing to ../ui-lib/lib-components
         </h1>
-        <AppButton label="This button"></AppButton>
+        <Button label="This button"></Button>
       </main>
 
       <style jsx>{`
