@@ -1,4 +1,4 @@
-# Sharing UI library folder without publishing a npm module
+# Sharing UI library folder without publishing an npm module
 
 If the goal is only to share a component folder within different projects, creating a versioned library might feel like a hassle.
 This repository illustrates how to import a UI library into multiple apps from repository root.
